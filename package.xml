@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>pcl_hemisphere_trackerl</name>
+  <name>pcl_hemisphere_tracker</name>
   <version>0.0.0</version>
-  <description>The pcl_hemisphere_trackerl package</description>
+  <description>The pcl_hemisphere_tracker package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
@@ -40,10 +40,10 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <depend>pcl</depend>
   <depend>pcl_ros</depend>
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>libpcl-all</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
